@@ -16,11 +16,3 @@ pis(alig, what = "frac")
 # indices of potentially-informative sites:
 # --------------------------------------------
 pis(alig, what = "ind")
-
-
-
-
-
-
-
-
