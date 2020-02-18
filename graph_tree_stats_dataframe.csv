@@ -1,0 +1,18 @@
+﻿character,CI,RI,Fit,body_part,character_system,Informativeness
+1,1.0,1.0,1,Carapace,Carapace,TRUE
+8,1.0,1.0,1,Eyes,Carapace,FALSE
+9,0.2,0.9,5,Carapace,Carapace,TRUE
+10,0.7,0.9,3,Carapace,Carapace,TRUE
+16,0.3,0.7,10,Sternum,Sternum,TRUE
+17,0.5,0.5,2,Ch_basal_segment,chelicerae,TRUE
+23,0.3,0.4,7,Ch_basal_segment,chelicerae,TRUE
+32,0.2,0.5,5,Cheliceral_claw,chelicerae,TRUE
+33,0.1,0.4,29.00,Cheliceral_claw,chelicerae,TRUE
+34,1.0,1.0,1,Cheliceral_claw,chelicerae,FALSE
+35,0.5,1.0,2,Opisthosoma,Opisthosoma_genitalia,TRUE
+36,0.3,0.8,4,Genital_operculum ,Opisthosoma_genitalia,TRUE
+41,N/A,N/A,N/A,Gonopod_female,Opisthosoma_genitalia,N/A
+42,N/A,N/A,N/A,Gonopod_female,Opisthosoma_genitalia,N/A
+43,0.3,0.9,6.0,Gonopod_female,Opisthosoma_genitalia,TRUE
+44,0.1,0.7,10.0,Gonopod_female,Opisthosoma_genitalia,TRUE
+45,0.1,0.6,9,Gonopod_female,Opisthosoma_genitalia,TRUE
