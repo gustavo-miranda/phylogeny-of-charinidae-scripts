@@ -53,4 +53,4 @@ dd <- bind_rows(d1, d2) %>%     # bind multiple data frames by row and column
  
 pp + geom_line(aes(x, y, group=label), data=dd, color='grey')
 
-ggsave(filename = "MLvsBI_tree_comparison.pdf" , device = "pdf", width = 15, height = 20 , units = "in" , limitsize = FALSE)
+ggsave(filename = "compare_trees.pdf" , device = "pdf", width = 15, height = 20 , units = "in" , limitsize = FALSE)
