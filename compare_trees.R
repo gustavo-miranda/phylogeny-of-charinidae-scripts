@@ -8,12 +8,12 @@ library(ggplot2)
 library(ggtree)
 library(treeio)
 
-setwd("/Users/gustavo_miranda/Dropbox (Smithsonian)/Doutorado tentativa online/ZMUC work/Charinidae/Phylogeny_Biogeography_Charinidae/Analysis/Final analysis (paper)")
+setwd("path/to/directory")
 
   
 ##### read tree files
-x <- read.nexus(file = './raxml/stolen_2/tree/RAxML_edited2020_2')
-y <- read.tree(file= "./MrBayes/no camacan/Concat.nex2020.tre")
+x <- read.nexus(file = '.path/to/directory/tere.nex')
+y <- read.tree(file= ".path/to/directory/tree.tre")
 
 
 ##### plot tree to variable
