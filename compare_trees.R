@@ -12,17 +12,17 @@ setwd("path/to/directory")
 
   
 ##### read tree files
-x <- read.nexus(file = '.path/to/directory/tere.nex')
+x <- read.nexus(file = '.path/to/directory/tree.nex')
 y <- read.tree(file= ".path/to/directory/tree.tre")
 
 
 ##### plot tree to variable
 
-# to see node numbers
+# to see node numbers (if needed)
 ggtree(x) + geom_text2(aes(subset=!isTip, label=node), hjust=-.3) + geom_tiplab(size=2)
 ggtree(y) + geom_text2(aes(subset=!isTip, label=node), hjust=-.3) + geom_tiplab(size=2)
 
-# creates an object with a plot of tree 1 with a centrlized title
+# creates an object with a plot of tree 1 with a centralized title
 p1 <- ggtree(x_2) + ggtitle("ML") + theme(plot.title = element_text(hjust = 0.25)) +
       geom_hilight(node=113, fill="steelblue", alpha=.6) +
       geom_hilight(node=116, fill="yellow", alpha=.6) +
@@ -33,7 +33,7 @@ p2 <- ggtree(y_2) + ggtitle("BI") + theme(plot.title = element_text(hjust = 0.25
       geom_hilight(node=112, fill="yellow", alpha=.6) +
       geom_hilight(node=142, fill="green", alpha=.6)
 
-# create tibbles from $data (https://r4ds.had.co.nz/tibbles.html)
+# create tibbles from $data
 d1 <- p1$data
 d2 <- p2$data
 
