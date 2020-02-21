@@ -3,7 +3,7 @@
 # Depending on the format of the tree (nex or tre), this bit of the code "*.nex" needs to be changed accordingly.
 # This works like a 'find and replace' tool, so the first name is the one to be matched (the name in the tree) and the second is the new name.
 # This works in Unix environment (so in a Mac or Linux OS).
-# You can also create a loop to automate the run, but then you need to creat a list of configuration file.
+# You can also create a loop to automate the run, but then you need to creat a list or configuration file.
 
 perl -pi -w -e 's/davidovi11377/"Weygoldtia davidovi 11377"/g;' *.nex
 perl -pi -w -e 's/diadema1479/"Damon diadema 1479"/g;' *.nex
